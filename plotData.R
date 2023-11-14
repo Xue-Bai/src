@@ -1,3 +1,3 @@
 pdf(file = '../results/firstHistogram.pdf')
-hist(whales$Depth)
+hist(whales$SST)
 dev.off()
