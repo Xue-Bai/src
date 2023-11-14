@@ -4,3 +4,4 @@
 whales <- read.csv(file = 'bbmroData.csv') 
 ## Remember your data should be in subfolder data, data/bbmroData.csv
 head(whales)
+table(whales$speciesName)
